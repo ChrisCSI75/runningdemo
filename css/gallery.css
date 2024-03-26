@@ -1,4 +1,4 @@
-img {
+.gallery-img {
     width: 30%;
 /*     margin: 1.666667%; */
     margin: calc(10%/6);
