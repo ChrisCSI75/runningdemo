@@ -12,17 +12,58 @@
 
 <body>
 
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg gradient-background">
+    <div class="container-fluid">
+      <a class="navbar-brand active" href="./index.html">Darlo Runners</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./public/gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./public/schedule.html">Runs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./public/social.html">Social</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./public/charity.html">Charity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.sprinterssportswear.co.uk/product-category/clubs/darlo_runners/" target=blank>
+              <img src="./images/svg and icons/basket2-fill.svg" height="20"alt="a shopping basket" class="basket-icon"> Merchandise</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <!-- Title -->
   <section id="title" class="gradient-background">
     <div class="container col-xxl-8 px-4 pt-3">
-      <div class="row flex-lg-row-reverse align-items-center g-5 pt-3">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="./images/DR logo 3.png" class="d-block mx-lg-auto img-fluid" alt="Darlo Runners Logo" height="200" loading="lazy">
+          <img src="./images/logos/DR logo 3.png" class="d-block mx-lg-auto img-fluid" alt="Darlo Runners Logo" height="200" loading="lazy">
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Darlo Runners</h1>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a href="https://www.facebook.com/profile.php?id=61552019077508" type="button" class="btn btn-outline-light btn-lg px-4 me-md-2" target=blank><img src="./images/facebook.svg" class="inverted" alt="facebook icon"> Find us on Facebook</a>
+            <a href="https://www.facebook.com/profile.php?id=61552019077508" type="button" class="btn btn-outline-light btn-lg px-4 me-md-2" target=blank><img src="./images/svg and icons/facebook.svg" class="inverted" alt="facebook icon"> Find us on Facebook</a>
             <!-- <button type="button" class="btn btn-outline-light btn-lg px-4 me-md-2"><img src="./images/facebook.svg" class="inverted" alt="facebook icon"> Follow us on Facebook</button> -->
           </div>
         </div>
@@ -37,46 +78,40 @@
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="col d-flex align-items-start">
           <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-check2-circle"
-              viewBox="0 0 16 16">
-<path
-                d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
-<path
-                d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
-            </svg>
+            <img src="./images/svg and icons/t-shirt-svgrepo-com.svg" height="30" alt="image icon of a t-shirt">
           </div>
           <div>
-            <h3 class="fs-2 text-body-emphasis">Free</h3>
-            <p>No costs, no fees, just running, bants, and socialising.  Wear whatever you want, or pick up a Darlo Runners top to spread the word!</p>
+            <h3 class="fs-2">Free</h3>
+            <p>No costs, no fees, just running, bants, and socialising.  Wear whatever you want, or buy a Darlo Runners top to spread the word!</p>
+            <a href="https://www.sprinterssportswear.co.uk/product-category/clubs/darlo_runners/" target=blank class="btn btn-dark">
+              Merchandise
+              <img src="./images/svg and icons/chevron-right.svg" class="inverted" alt="a right facing chevron">
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./images/svg and icons/chat-square-heart.svg" height="30" class="inverted" alt="a heart in a speech bubble">
+          </div>
+          <div>
+            <h3 class="fs-2">Friendly</h3>
+            <p>A friendly group created by a runner, from a love of running, and for runners.  Join us for a 5K, 10K, 5 mile or half marathon.</p>
+            <a href="./public/gallery.html" class="btn btn-dark">
+              Come and see!
+              <img src="./images/svg and icons/chevron-right.svg" class="inverted" alt="a right facing chevron">
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./images/svg and icons/emoji-smile.svg" height="30" alt="a smiling face emoji">
+          </div>
+          <div>
+            <h3 class="fs-2">Fun</h3>
+            <p>We're not just about running, we're also about "fun-ing" too, with social events like bowling and meals out as well.</p>
             <a href="https://www.facebook.com/profile.php?id=61552019077508" target=blank class="btn btn-dark">
               Join us!
-              <img src="./images/chevron-right.svg" class="inverted" alt="a right facing chevron">
-            </a>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <img src="./images/t-shirt-svgrepo-com.svg" height="30" alt="image icon of a t-shirt">
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Friendly</h3>
-            <p>A friendly group created by a runner, from a love of running, and for runners.  Join us for a 5K, 10K, 5 mile or half marathon.</p>
-            <a href="./gallery.html" target=blank class="btn btn-dark">
-              Come and see!
-              <img src="./images/chevron-right.svg" class="inverted" alt="a right facing chevron">
-            </a>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <img src="./images/chat-square-heart.svg" height="30" class="inverted" alt="a heart in a speech bubble">
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Fun</h3>
-            <p>We're not just about running, we're also about "fun-ing" too, with social events like bowling and meals out as well.</p>
-            <a href="#" class="btn btn-dark disabled">
-              Join in!
-              <img src="./images/chevron-right.svg" class="inverted" alt="a right facing chevron">
+              <img src="./images/svg and icons/chevron-right.svg" class="inverted" alt="a right facing chevron">
             </a>
           </div>
         </div>
@@ -84,36 +119,12 @@
     </div>
   </section>
 
-  <!-- Testimonial -->
-  <!-- <section id="testimonial">
-    <div class="my-5">
-      <div class="p-5 text-center bg-body-tertiary">
-        <h1 class="text-body-emphasis">REVIEWS</h1>
-        <div class="container py-5">
-          <h2 class="text-body-emphasis">"The best running group I've joined this week!"</h2>
-          <img src="./images/chris.png" class="profile-img" alt="a dog rounded profile image">
-          <p class="col-lg-8 mx-auto lead">Chris, Darlington</p>
-        </div>
-        <div class="container py-5">
-          <h2 class="text-body-emphasis">"The best thing ever, but then I'm biased!"</h2>
-          <img src="./images/chloe.jpg" class="profile-img" alt="a dog rounded profile image">
-          <p class="col-lg-8 mx-auto lead">Chloe, Darlington</p>
-        </div>
-        <div class="container py-5">
-          <h2 class="text-body-emphasis">"The best running group I've joined this week!"</h2>
-          <img src="./images/youtube profile RWCT.png" class="profile-img" alt="a dog rounded profile image">
-          <p class="col-lg-8 mx-auto lead">Chris, Darlington</p>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!--CAROUSEL-->
+  <!--CAROUSEL REVIEWS-->
 
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="my-5">
       <div class="p-5 text-center bg-body-tertiary">
-        <h1 class="text-body-emphasis">REVIEWS</h1>
+        <h2 class="">REVIEWS</h2>
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -122,22 +133,22 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container py-5">
-              <h2 class="text-body-emphasis">"The best thing ever, but then I'm biased!"</h2>
-              <img src="./images/chloe.jpg" class="profile-img" alt="a dog rounded profile image">
+              <h3 class="">"The best thing ever, but then I'm biased!"</h3>
+              <img src="./images/reviews/chloe.jpg" class="profile-img" alt="reviewers profile image">
               <p class="col-lg-8 mx-auto lead">Chloe, Darlington</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container py-5">
-              <h2 class="text-body-emphasis">"The best running group I've joined today!"</h2>
-              <img src="./images/chris.png" class="profile-img" alt="a dog rounded profile image">
+              <h3 class="">"The best running group I've joined today!"</h3>
+              <img src="./images/reviews/chris.png" class="profile-img" alt="reviewers profile image">
               <p class="col-lg-8 mx-auto lead">Chris, Darlington</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container py-5">
-              <h2 class="text-body-emphasis">"I am Will, I do running!"</h2>
-              <img src="./images/will.jpg" class="profile-img" alt="a dog rounded profile image">
+              <h3 class="">"I am Will, I do running!"</h3>
+              <img src="./images/reviews/will.jpg" class="profile-img" alt="reviewers profile image">
               <p class="col-lg-8 mx-auto lead">Will, Somewhere</p>
             </div>
           </div>
@@ -155,10 +166,10 @@
   </div>
 
   <!-- AND MORE -->
-  <section id="pricing">
+  <section id="more-stuff">
     <div class="container py-3">
-      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal text-body-emphasis">Find out more</h1>
+      <div class="more-stuff-header p-3 pb-md-4 mx-auto text-center">
+        <h2 class="display-4 fw-normal">Find out more</h2>
         <!-- <p class="fs-5 text-body-secondary">Weekly Runs For All Abilities</p> -->
       </div>
 
@@ -166,16 +177,16 @@
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Runs For All Abilities</h4>
+              <h3 class="my-0 fw-normal">Runs For All Abilities</h3>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">FREE<small class="text-body-secondary fw-light"></small></h1>
+              <h3 class="card-title more-stuff-title">FREE<small class="text-body-secondary fw-light"></small></h3>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>Weekly 5K</li>
                 <li>Weekly 10K</li>
                 <li>Friday 5 Miler & more</li>
               </ul>
-              <a href="./schedule.html" type="button" class="w-100 btn btn-lg btn-outline-dark">Schedules</a>
+              <a href="./public/schedule.html" type="button" class="w-100 btn btn-lg btn-outline-dark">Schedules</a>
               <!-- <button type="button" class="w-100 btn btn-lg btn-outline-dark">Run Schedule</button> -->
             </div>
           </div>
@@ -183,16 +194,16 @@
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Charitable Work</h4>
+              <h3 class="my-0 fw-normal">Our Charitable Work</h3>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">CARING<small class="text-body-secondary fw-light"></small></h1>
+              <h3 class="card-title more-stuff-title">CARING<small class="text-body-secondary fw-light"></small></h3>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>Charity Fundraisers</li>
                 <li>Foodbank Runs</li>
-                <li>Supporting Local Communities</li>
+                <li>Raising Awareness</li>
               </ul>
-              <a href="./charity.html" type="button" class="w-100 btn btn-lg btn-outline-dark">Charity Events</a>
+              <a href="./public/charity.html" type="button" class="w-100 btn btn-lg btn-outline-dark">Charity Events</a>
               <!-- <button type="button" class="w-100 btn btn-lg btn-outline-dark">Charity Events</button> -->
             </div>
           </div>
@@ -200,16 +211,16 @@
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Friendly</h4>
+              <h3 class="my-0 fw-normal">Friendly and Fun</h3>
             </div>
             <div class="card-body">
-              <h1 class="card-title pricing-card-title">SOCIAL<small class="text-body-secondary fw-light"></small></h1>
+              <h3 class="card-title more-stuff-title">SOCIAL<small class="text-body-secondary fw-light"></small></h3>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>Social Activities</li>
                 <li>Group Runs</li>
                 <li>Supportive</li>
               </ul>
-              <a href="./social.html" type="button" class="w-100 btn btn-lg btn-outline-dark">Social Plans</a>
+              <a href="./public/social.html" type="button" class="w-100 btn btn-lg btn-outline-dark">Social Plans</a>
               <!-- <button type="button" class="w-100 btn btn-lg btn-outline-dark">Social Plans</button> -->
             </div>
           </div>
@@ -223,9 +234,6 @@
     <div class="container">
       <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 mt-5 border-top">
         <div class="col mb-3">
-          <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-          </a>
           <p class="text-body-secondary">© 2024 Chris Bowe</p>
         </div>
     
@@ -234,13 +242,14 @@
         </div>
     
         <div class="col mb-3">
-          <h5>On this Page</h5>
+          <h5>On this site</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#title" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#features" class="nav-link p-0 text-body-secondary">Why Us</a></li>
-            <li class="nav-item mb-2"><a href="#carouselExampleIndicators" class="nav-link p-0 text-body-secondary">Reviews</a></li>
-            <li class="nav-item mb-2"><a href="#pricing" class="nav-link p-0 text-body-secondary">More</a></li>
-            <!-- <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-body-secondary">About</a></li> -->
+            <li class="nav-item mb-2"><a href="#title" class="nav-link p-0 text-body-secondary active">Home Page</a></li>
+            <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-body-secondary">About Us</a></li>
+            <li class="nav-item mb-2"><a href="./public/gallery.html" class="nav-link p-0 text-body-secondary">Gallery</a></li>
+            <li class="nav-item mb-2"><a href="./public/schedule.html" class="nav-link p-0 text-body-secondary">Scheduled Runs</a></li>
+            <li class="nav-item mb-2"><a href="./public/social.html" class="nav-link p-0 text-body-secondary">Social</a></li>
+            <li class="nav-item mb-2"><a href="./public/charity.html" class="nav-link p-0 text-body-secondary">Charity</a></li>
           </ul>
         </div>
     

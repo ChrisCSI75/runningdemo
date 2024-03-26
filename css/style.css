@@ -16,16 +16,42 @@
   }
 }
 
+.nav-link:hover, .active{
+  color:white !important;
+}
+
+/* 
+.active {
+  color: white !important;
+} */
+
+/* 
+.container-fluid > .navbar-brand .active {
+  color: white;
+} */
+
 #title .text-body-emphasis {
   /* color: #fd823a !important; */
   color: white !important;
 }
 
-.inverted {
+h2, h3, .card-title {
+  color: #fd823a;
+}
+
+/* h3 {
+  color: #fd823a;
+} */
+
+p, .carousel-item h3, .card-header > h3, .list-unstyled li {
+  color: #00346f;
+}
+
+.inverted, a:hover > .basket-icon {
   filter: invert(1);
 }
 
-button:hover > .inverted {
+a:hover > .inverted {
   filter: invert(0);
 }
 
@@ -40,6 +66,14 @@ button:hover > .inverted {
   border-radius: 50%;
 }
 
-.carousel button {
-  background-color: lightgray !important;
+.carousel-indicators>button {
+  background-color: grey !important;
 }
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: grey;
+}
+/* 
+footer .nav-item .active {
+  color: white !important;
+} */
