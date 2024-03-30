@@ -61,6 +61,12 @@ a:hover > .inverted {
   border-radius: 0.75rem;
 }
 
+.week-rota {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
 .profile-img {
   height: 100px;
   border-radius: 50%;
