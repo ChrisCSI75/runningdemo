@@ -1,0 +1,90 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00346f, #ff4c68, #fd823a);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nav-link:hover, .active{
+  color:white !important;
+}
+
+/* 
+.active {
+  color: white !important;
+} */
+
+/* 
+.container-fluid > .navbar-brand .active {
+  color: white;
+} */
+
+#title .text-body-emphasis {
+  /* color: #fd823a !important; */
+  color: white !important;
+}
+
+h2, h3, .card-title {
+  color: #fd823a;
+}
+
+/* h3 {
+  color: #fd823a;
+} */
+
+p, .carousel-item h3, .card-header > h3, .list-unstyled li {
+  color: #00346f;
+}
+
+.inverted, a:hover > .basket-icon {
+  filter: invert(1);
+}
+
+a:hover > .inverted {
+  filter: invert(0);
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.week-rota {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.carousel-indicators>button {
+  background-color: grey !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: grey;
+}
+/* 
+footer .nav-item .active {
+  color: white !important;
+} */
+
+/* #run-list {
+  border: 1px solid grey;
+  border-radius: 10px;
+} */
