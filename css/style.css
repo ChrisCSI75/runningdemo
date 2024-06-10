@@ -79,6 +79,10 @@ a:hover > .inverted {
 .carousel-control-next-icon, .carousel-control-prev-icon {
   background-color: grey;
 }
+
+.about-img {
+  height: 200px;
+}
 /* 
 footer .nav-item .active {
   color: white !important;
